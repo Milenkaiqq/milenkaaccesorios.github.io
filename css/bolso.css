@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("../img/carteras.jpg"); /* Puedes cambiar esta imagen si usas otro fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: transparent;
+  border: 5px solid #a86ca3;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #a86ca3;
+}
+
+.galeria-detalle {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.galeria-detalle img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+
+.galeria-detalle img:hover {
+  transform: scale(1.03);
+}
+
+.volver {
+  background-color: #a86ca3;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.volver:hover {
+  background-color: #dca6e1;
+  color: #4ad068;
+}
+
+footer {
+  text-align: center;
+  margin-top: 210px;
+  padding: 20px;
+  background-color: #f3e7f6;
+  border-top: 2px solid #ccc;
+  font-size: 0.9em;
+}
